@@ -1,0 +1,26 @@
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-field {
+    margin-bottom: 20px;
+}
+
+.form-input {
+    background-color: #eae6e6;
+    border-radius: 8px;
+    width: 24em;
+    height: 2em;
+    border: solid 0.1px #4b4a4a;
+    outline: blueviolet;
+    transition: width 0.5s ease-in-out;
+}
+
+.form-input:focus {
+    border: solid 0.1px #b4b4b4;
+    width: 500px;
+}
