@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 4em 0 4em ;
+    align-items: center;
+}
+
+.header-text {
+    font-size: 2em;
+}
+
+.add-icon {
+    cursor: pointer;
+
+}
+
+.add-icon:hover{
+    fill: #776e6e;
+}

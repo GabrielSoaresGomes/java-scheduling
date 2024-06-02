@@ -20,8 +20,7 @@ const Navbar = () => {
               </button>
               {dropdownOpen && (
                   <div className="dropdown-content">
-                      <NavLink to="/user/add">Adicionar Usuário</NavLink>
-                      <NavLink to="/">Listar Usuários</NavLink>
+                      <NavLink to="/">Usuários</NavLink>
                   </div>
               )}
           </div>
